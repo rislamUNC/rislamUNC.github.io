@@ -3,33 +3,31 @@ body {
 }
 
 nav {
-position: fixed;
-width: 100%;
-left: 0;
-top: 0;
-z-index: 3;
-background-color: #830f10;
-display: flex;
-justify-content: center; 
+    background-color: #830f10;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
 }
 
 nav ul {
-display: flex;
-list-style-type: none;
-padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 nav li {
-padding: 0.5em 2em;
-font-size: 1.5em;
-font-family: Geneva, Arial, sans-serif;
-font-weight: bold;
-border-top: 0.5px solid #FFFFFF;
+    margin: 0 20px;
+    text-decoration: none;
 }
 
 nav li a {
-color: #FFFFFF;
-text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 
